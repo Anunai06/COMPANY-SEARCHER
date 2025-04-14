@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: url('logo.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #home, #categories, #bookmarks, #about {
+    display: none;
+    padding-top: 80px;
+  }
+  
+  #home {
+    height: 100vh;
+  }
+  
+  .vertical-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .category-btn {
+    width: 200px;
+  }
+  
+  .company-card img {
+    max-height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  #bookmarks, #about {
+    background-color: rgba(253, 245, 230, 0.3);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  #bookmarks .list-group-item,
+  #about .list-group-item {
+    background-color: rgba(253, 245, 230, 0.2);
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
